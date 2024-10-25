@@ -8,6 +8,25 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+    <style>
+        .btn-custom {
+            background-color: #007bff; /* Cambia el color de fondo del botón */
+            color: #fff; /* Cambia el color del texto del botón */
+        }
+        .btn-custom:hover {
+            background-color: #0056b3; /* Color de fondo al pasar el mouse */
+            color: #fff; /* Color del texto al pasar el mouse */
+        }
+        .btn-secondary-custom {
+            background-color: #6c757d; /* Cambia el color de fondo del botón secundario */
+            color: #fff; /* Cambia el color del texto del botón secundario */
+        }
+        .btn-secondary-custom:hover {
+            background-color: #5a6268; /* Color de fondo al pasar el mouse para el botón secundario */
+            color: #fff; /* Color del texto al pasar el mouse para el botón secundario */
+        }
+    </style>
+
     <title>Registro de Usuario - Hotel Costa Azul</title>
 </head>
 <body>
@@ -42,8 +61,8 @@
                 <input name="foto" accept="image/*" required type="file" class="form-control-file" id="foto">
             </div>
             
-            <a class="btn btn-secondary" href="/">Ir al Login</a>
-            <button class="btn btn-primary" type="submit">Registrar Usuario</button>
+            <a class="btn btn-secondary-custom" href="/">Ir al Login</a>
+            <button class="btn btn-custom" type="submit">Registrar Usuario</button>
         </form>
     </div>
 
